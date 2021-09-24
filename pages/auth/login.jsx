@@ -25,8 +25,8 @@ export default function login() {
             </section>
 
             <section className="text-dark-gray bg-gray-100 rounded-lg mt-4">
-                <div className="container px-5 py-24 mx-auto flex flex-wrap">
-                    <div className="flex flex-wrap justify-between items-center">
+                <div className="container px-20 py-24 mx-auto flex flex-wrap">
+                    <div className="flex flex-wrap -m-4 justify-between">
                         <div className="p-4 lg:w-1/2 md:w-full">
                             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
                                 <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-red-100 text-dark-orange flex-shrink-0">
