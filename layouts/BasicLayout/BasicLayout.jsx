@@ -1,14 +1,13 @@
-import React from 'react'
-import { Container } from 'semantic-ui-react'
-import Header from '../../components/Header/Header'
+import React from 'react';
+import Footer from '../../components/Footer';
+import Header from '../../components/Header';
 
 export default function BasicLayout({ children }) {
     return (
-        <Container fluid className="basic-layout">
+        <div className="container mx-auto">
             <Header />
-            <Container className="content">
-                {children}
-            </Container>
-        </Container>
+            {children}
+            <Footer/>
+        </div>
     )
 }
