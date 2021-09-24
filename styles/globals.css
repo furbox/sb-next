@@ -5,7 +5,9 @@
 @layer base {}
 
 @layer components {
-    
+    body {
+        @apply bg-dark-gray
+    }
 }
 
 @layer utilities {}
