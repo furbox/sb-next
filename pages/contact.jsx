@@ -1,10 +1,9 @@
-import React from 'react'
 import BasicLayout from '../layouts/BasicLayout'
 
 export default function contact() {
     return (
         <BasicLayout>
-            <section className="text-dark-gray body-font relative">
+            <section className="text-dark-gray bg-light-gray rounded-lg relative">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-12">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-dark-blue">Contactanos</h1>

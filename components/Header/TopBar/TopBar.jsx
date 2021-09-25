@@ -6,16 +6,19 @@ export default function TopBar() {
     return (
         <header className="text-light-gray body-font">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-                    <a className="mr-5 hover:text-dark-orange">Contacto</a>
-                    <a className="mr-5 hover:text-dark-orange">Nosotros</a>
-                    <a className="mr-5 hover:text-dark-orange">Servicios</a>
-                    <a className="hover:text-dark-orange">FAQs</a>
+                <nav className="flex lg:w-2/5 flex-wrap items-center md:ml-auto">
+                    <Link href="/contact"><a className="mr-5 hover:text-dark-orange">Contacto</a></Link>
+                    <Link href="/about"><a className="mr-5 hover:text-dark-orange">Nosotros</a></Link>
+                    <Link href="/services"><a className="mr-5 hover:text-dark-orange">Servicios</a></Link>
+                    <Link href="/faqs"><a className="hover:text-dark-orange">FAQs</a></Link>
                 </nav>
                 <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-dark-orange lg:items-center lg:justify-center mb-4 md:mb-0">
                     <Logo />
                 </a>
                 <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+                    <nav className="md:ml-auto flex flex-wrap items-center justify-center">
+                    <Link href="profile"><a className="mr-5 hover:text-dark-orange">Bienvenido, Christopher</a></Link>
+                    </nav>
                     <Link href="/auth/login">
                         <a>
                             <button className="inline-flex text-dark-blue hover:text-light-gray items-center bg-light-gray border-0 py-1 px-3 focus:outline-none hover:bg-dark-orange rounded text-base mt-4 md:mt-0">Login

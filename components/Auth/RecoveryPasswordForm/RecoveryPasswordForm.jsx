@@ -1,6 +1,6 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
-export default function RegisterForm() {
+export default function RecoveryPasswordForm() {
     return (
         <section className="text-dark-orange body-font">
             <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
@@ -9,7 +9,7 @@ export default function RegisterForm() {
                     <p className="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p>
                 </div>
                 <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-                    <h2 className="text-dark-blue text-lg font-medium title-font mb-5">Registrate</h2>
+                    <h2 className="text-dark-blue text-lg font-medium title-font mb-5">Recupera tu contraseña</h2>
                     <div className="relative mb-4">
                         <label htmlFor="full-name" className="leading-7 text-sm text-dark-gray">Full Name</label>
                         <input type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-dark-orange focus:ring-2 focus:ring-dark-orange text-base outline-none text-dark-blue py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
