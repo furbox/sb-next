@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 export default function HomePage() {
     return (
@@ -46,7 +47,11 @@ export default function HomePage() {
                         </a>
                     </div>
                 </div>
-                <button className="flex mx-auto mt-16 text-white bg-dark-orange border-0 py-2 px-8 focus:outline-none hover:bg-light-gray hover:text-dark-orange rounded text-lg">Registrarse</button>
+                <Link href="/auth/register">
+                    <a>
+                        <button className="flex mx-auto mt-16 text-white bg-dark-orange border-0 py-2 px-8 focus:outline-none hover:bg-light-gray hover:text-dark-orange rounded text-lg">Registrarse</button>
+                    </a>
+                </Link>
             </div>
         </section>
     )
